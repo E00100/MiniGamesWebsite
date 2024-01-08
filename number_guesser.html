@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guesser</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap">
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="number_guesser.css">
+</head>
+
+<body>
+    <header>
+        <h1>NUMBER GUESSER GAME</h1>
+    </header>
+
+    <button class="menu-button">Menu</button>
+
+    <nav>
+        <div class="dropdown desktop-nav">
+            <a href="#" class="dropbtn">Games</a>
+            <div class="dropdown-content">
+                <a href="number_guesser.html">Number Guesser</a>
+                <a href="rock_paper_scissors.html">Rock Paper Scissors</a>
+                <a href="tic_tac_toe.html">Tic Tac Toe</a>
+                <a href="blackjack.html">Blackjack</a>
+                <a href="flappybird.html">Flappy Bird</a>
+            </div>
+        </div>
+        <a href="contact.html" class="desktop-nav">Contact</a>
+        <a href="login.html" class="desktop-nav">Login</a>
+        <a href="leaderboard.html" class="desktop-nav">Leaderboard</a>
+    </nav>
+
+    <div class="game-section">
+        <article class="game-card">
+            <h2>Number Guesser</h2>
+            <p>Number Guesser is a game where the user and computer choose a number between 1-10,
+                then the user should try to guess the computer's number.</p>
+        </article>
+
+        <h3>Guess a number between 1 and 10:</h3>
+        <input type="number" id="userGuess" min="1" max="10">
+        <button id="guessButton">Guess</button>
+        <p id="result"></p>
+    </div>
+
+    <div class="back-arrow">
+        <a href="index.html">
+            <button id="home-button">
+                <span>&#129092; Home Page</span>
+            </button>
+        </a>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="number_guesser.js"></script>
+</body>
+
+</html>

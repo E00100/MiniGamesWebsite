@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Games</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>MINI GAMES</h1>
+    </header>
+
+    <button class="menu-button">Menu</button>
+
+    <nav>
+        <div class="dropdown desktop-nav">
+            <a href="#" class="dropbtn">Games</a>
+            <div class="dropdown-content">
+                <a href="number_guesser.html">Number Guesser</a>
+                <a href="rock_paper_scissors.html">Rock Paper Scissors</a>
+                <a href="tic_tac_toe.html">Tic Tac Toe</a>
+                <a href="blackjack.html">Blackjack</a>
+                <a href="flappybird.html">Flappybird</a>
+            </div>
+        </div>
+        <a href="contact.html" class="desktop-nav">Contact</a>
+        <a href="login.html" class="desktop-nav">Login</a>
+        <a href="leaderboard.html" class="desktop-nav">Leaderboard</a>
+    </nav>
+
+    <section class="games-section">
+        <div class="card-container">
+            <article class="game-card" onclick="window.location.href='number_guesser.html';">
+                <h2>Number Guesser</h2>
+                <img src="number_guesser.jpg" alt="Screenshot of the Number Guesser game" class="game-image">
+            </article>
+
+            <article class="game-card" onclick="window.location.href='rock_paper_scissors.html';">
+                <h2>Rock Paper Scis... </h2>
+                <img src="comingsoon.jpg" alt="Game is under construction" class="game-image">
+            </article>
+
+            <article class="game-card" onclick="window.location.href='tic_tac_toe.html';">
+                <h2>Tic Tac Toe</h2>
+                <img src="comingsoon.jpg" alt="Game is under construction" class="game-image">
+            </article>
+
+            <article class="game-card" onclick="window.location.href='blackjack.html';">
+                <h2>Blackjack</h2>
+                <img src="comingsoon.jpg" alt="Game is under construction" class="game-image">
+            </article>
+            <article class="game-card" onclick="window.location.href='flappybird.html';">
+                <h2>Flappybird</h2>
+                <img src="flappy.jpg" alt="image of the bird" class="game-image">
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
